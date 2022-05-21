@@ -1,0 +1,16 @@
+#ifndef UNIT_STATUS_REWORK
+#define UNIT_STATUS_REWORK
+
+#ifndef FreeSpace
+#define FreeSpace 0xB2A610
+ORG FreeSpace
+#endif // FreeSpace
+
+ALIGN 4
+#include "UnitStatusCore.event"
+
+ALIGN 4
+#include "Templates/UnitStatusInstaller.event"
+
+
+#endif // UNIT_STATUS_REWORK
