@@ -1,6 +1,5 @@
-#ifndef UNIT_STATUS_REWORK
-#define UNIT_STATUS_REWORK
 
+ALIGN 4
 #include "Data/MiniBoxGfx.event"
 #include "Data/InfoTable.lyn.event"
 
@@ -86,9 +85,3 @@ POP
 
 
 
-
-
-
-
-
-#endif // UNIT_STATUS_REWORK

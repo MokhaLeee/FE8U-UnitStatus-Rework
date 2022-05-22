@@ -11,7 +11,7 @@ In addition, it provides adaptations for currently common patches, such as MSG a
 
 ## How to Use it
 
-Directly include "UnitStatus.event", then you will get this patch installed. As examples, I have makde some status as templetes, include "avoid"(unit grants avoid rate +15% at one turn), "Gravity"(unit cannot move in one turn), "Expose Def"(unit Def -5) in one turn, etc. All of these status is defined in `Templates/UnitStatusDef.h`, you can directly use function `void SetUnitStatus(struct Unit* unit, int statusId)` to give units status.
+Directly include "UnitStatus.event", then you will get this patch installed. As examples, I have makde some status as templetes, include "avoid"(unit grants avoid rate +15% in one turn), "Gravity"(unit cannot move in one turn), "Expose Def"(unit Def -5 in one turn), etc. All of these status is defined in `Templates/UnitStatusDef.h`, you can directly use function `void SetUnitStatus(struct Unit* unit, int statusId)` to give units status.
 
 Meanwhile, you need to put functions defined in `External` folder to support patchs, including:
 
