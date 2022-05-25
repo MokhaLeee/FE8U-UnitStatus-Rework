@@ -1,7 +1,7 @@
 #include "gbafe.h"
 #include "unit-status.h"
 
-s8 PowGetter_UnitStatus(struct Unit* unit, s8 cur){
+s8 PowGetter_UnitStatus(s8 cur, struct Unit* unit){
 	
 	const u8 index = GetUnitStatusIndex(unit);
 	const struct UnitStatusInfo* info = GetStatusInfo(index);
@@ -10,7 +10,7 @@ s8 PowGetter_UnitStatus(struct Unit* unit, s8 cur){
 }
 
 
-s8 MagGetter_UnitStatus(struct Unit* unit, s8 cur){
+s8 MagGetter_UnitStatus(s8 cur, struct Unit* unit){
 	
 	const u8 index = GetUnitStatusIndex(unit);
 	const struct UnitStatusInfo* info = GetStatusInfo(index);
@@ -19,7 +19,7 @@ s8 MagGetter_UnitStatus(struct Unit* unit, s8 cur){
 }
 
 
-s8 SklGetter_UnitStatus(struct Unit* unit, s8 cur){
+s8 SklGetter_UnitStatus(s8 cur, struct Unit* unit){
 	
 	const u8 index = GetUnitStatusIndex(unit);
 	const struct UnitStatusInfo* info = GetStatusInfo(index);
@@ -28,7 +28,7 @@ s8 SklGetter_UnitStatus(struct Unit* unit, s8 cur){
 }
 
 
-s8 SpdGetter_UnitStatus(struct Unit* unit, s8 cur){
+s8 SpdGetter_UnitStatus(s8 cur, struct Unit* unit){
 	
 	const u8 index = GetUnitStatusIndex(unit);
 	const struct UnitStatusInfo* info = GetStatusInfo(index);
@@ -37,7 +37,7 @@ s8 SpdGetter_UnitStatus(struct Unit* unit, s8 cur){
 }
 
 
-s8 DefGetter_UnitStatus(struct Unit* unit, s8 cur){
+s8 DefGetter_UnitStatus(s8 cur, struct Unit* unit){
 	
 	const u8 index = GetUnitStatusIndex(unit);
 	const struct UnitStatusInfo* info = GetStatusInfo(index);
@@ -46,7 +46,7 @@ s8 DefGetter_UnitStatus(struct Unit* unit, s8 cur){
 }
 
 
-s8 ResGetter_UnitStatus(struct Unit* unit, s8 cur){
+s8 ResGetter_UnitStatus(s8 cur, struct Unit* unit){
 	
 	const u8 index = GetUnitStatusIndex(unit);
 	const struct UnitStatusInfo* info = GetStatusInfo(index);
@@ -55,7 +55,7 @@ s8 ResGetter_UnitStatus(struct Unit* unit, s8 cur){
 }
 
 
-s8 LckGetter_UnitStatus(struct Unit* unit, s8 cur){
+s8 LckGetter_UnitStatus(s8 cur, struct Unit* unit){
 	
 	const u8 index = GetUnitStatusIndex(unit);
 	const struct UnitStatusInfo* info = GetStatusInfo(index);
@@ -64,7 +64,7 @@ s8 LckGetter_UnitStatus(struct Unit* unit, s8 cur){
 }
 
 
-s8 MovGetter_UnitStatus(struct Unit* unit, s8 cur){
+s8 MovGetter_UnitStatus(s8 cur, struct Unit* unit){
 	
 	const u8 index = GetUnitStatusIndex(unit);
 	const struct UnitStatusInfo* info = GetStatusInfo(index);

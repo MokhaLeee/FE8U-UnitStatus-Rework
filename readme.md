@@ -21,6 +21,8 @@ Meanwhile, you need to put functions defined in `External` folder to support pat
 
 - `Pre-Battle Calc`: "BC_UnitStatus" to Pre-Battle Calc loop.
 
+- `Modular Stat Screen`: use the fixed `mss_def.s` inside folder `/external`
+
 ## How to make your own status
 
 Please refer to `Templates` folder:
